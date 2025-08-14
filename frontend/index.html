@@ -2,36 +2,70 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title class="title">Tic Tac Toe</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title & SEO -->
+  <title>Tic Tac Toe Game - Play Online</title>
+  <meta name="description"
+    content="Play Tic Tac Toe online! Challenge yourself or play with friends in this classic game. Fun, interactive, and responsive.">
+  <meta name="keywords" content="Tic Tac Toe, Tic Tac Toe online, Play Tic Tac Toe, Online games, X and O game">
+  <meta name="author" content="Bibas Yonghang">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Tic Tac Toe Game - Play Online">
+  <meta property="og:description"
+    content="Play Tic Tac Toe online! Challenge yourself or play with friends in this classic game.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tic-tac-toe-orpin-gamma.vercel.app/tictactoe">
+  <meta property="og:image" content="https://tic-tac-toe-orpin-gamma.vercel.app/social-media-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tic Tac Toe Game - Play Online">
+  <meta name="twitter:description"
+    content="Play Tic Tac Toe online! Challenge yourself or play with friends in this classic game.">
+  <meta name="twitter:image" content="https://tic-tac-toe-orpin-gamma.vercel.app/social-media-image.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <!-- Message container -->
   <div class="msg-container" id="msg-container">
-    <p id="msg">Winner</p>
+    <p id="msg"></p>
   </div>
+
   <main>
+    <!-- Game Title -->
     <h1 class="title">Tic Tac Toe</h1>
+
+    <!-- Game Board -->
     <div class="container">
       <div class="box">
-        <button class="boxes"></button>
-        <button class="boxes"></button>
-        <button class="boxes"></button>
-        <button class="boxes"></button>
-        <button class="boxes"></button>
-        <button class="boxes"></button>
-        <button class="boxes"></button>
-        <button class="boxes"></button>
-        <button class="boxes"></button>
+        <button class="box-cell"></button>
+        <button class="box-cell"></button>
+        <button class="box-cell"></button>
+        <button class="box-cell"></button>
+        <button class="box-cell"></button>
+        <button class="box-cell"></button>
+        <button class="box-cell"></button>
+        <button class="box-cell"></button>
+        <button class="box-cell"></button>
       </div>
     </div>
+
+    <!-- Reset Button -->
     <div class="reset-button-div">
       <button class="reset-button">Reset</button>
     </div>
   </main>
 
+  <!-- Scripts -->
   <script src="script.js"></script>
 </body>
 
